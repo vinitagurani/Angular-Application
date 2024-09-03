@@ -1,0 +1,84 @@
+/* Ensure the table takes the full width of its container */
+table {
+  width: 100%;
+  border-collapse: collapse; /* Collapse borders for a cleaner look */
+  margin: 20px 0; /* Add some space above and below the table */
+}
+
+/* Style the table header */
+thead {
+  background-color: #f4f4f4; /* Light gray background for headers */
+}
+
+th {
+  padding: 12px; /* Add padding for better spacing */
+  text-align: left; /* Align text to the left */
+  border-bottom: 2px solid #ddd; /* Add a bottom border for separation */
+  cursor: pointer; /* Show a pointer cursor to indicate that headers are clickable */
+}
+
+th:hover {
+  background-color: #e0e0e0; /* Highlight the header on hover */
+}
+
+/* Style the table body rows */
+tbody tr:nth-child(even) {
+  background-color: #f9f9f9; /* Alternating row colors for better readability */
+}
+
+tbody tr:nth-child(odd) {
+  background-color: #ffffff; /* White background for odd rows */
+}
+
+td {
+  padding: 12px; /* Add padding for better spacing */
+  border-bottom: 1px solid #ddd; /* Add a bottom border for separation */
+}
+
+/* Add some styling for the input search field */
+input {
+  margin: 10px 0; /* Add some space around the input field */
+  padding: 8px; /* Add padding inside the input field */
+  width: 100%; /* Make the input field take full width */
+  box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  border: 1px solid #ccc; /* Add a border around the input field */
+  border-radius: 4px; /* Rounded corners for the input field */
+  font-size: 16px; /* Increase font size for better readability */
+}
+
+/* Style the pagination controls */
+.pagination {
+  margin: 20px 0; /* Add space around pagination controls */
+  text-align: center; /* Center the pagination controls */
+}
+
+.pagination button {
+  padding: 10px 15px; /* Add padding inside buttons */
+  border: 1px solid #ddd; /* Border around buttons */
+  border-radius: 4px; /* Rounded corners for buttons */
+  background-color: #f4f4f4; /* Light gray background for buttons */
+  cursor: pointer; /* Show a pointer cursor on hover */
+  font-size: 16px; /* Increase font size for better readability */
+}
+
+.pagination button:disabled {
+  background-color: #e0e0e0; /* Disable button styling */
+  cursor: not-allowed; /* Show a not-allowed cursor */
+}
+
+.pagination span {
+  margin: 0 15px; /* Add space around the page indicator */
+}
+
+/* Styling the <h4> element */
+h4 {
+  color: #333; /* Dark text color for readability */
+  font-size: 18px; /* Slightly larger font size */
+  margin-bottom: 10px; /* Space below the heading */
+  font-weight: 500; /* Semi-bold text weight */
+  text-align: left; /* Align text to the left */
+  padding: 5px 10px; /* Padding for some breathing space */
+  border-left: 4px solid #007bff; /* Blue border on the left for emphasis */
+  background-color: #f9f9f9; /* Light background to make it stand out */
+  border-radius: 4px; /* Rounded corners */
+}
